@@ -117,4 +117,24 @@ button:active {
   border: 5px solid #ffffff;
   padding: 20px;
   border-radius: 5px;
+}
+
+.low-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin: auto;
+  background-color: burlywood;
+}
+
+.quote {
+  font-style: italic;
+  color: #000000;
+  text-align: center;
+  width: 30%;
+  font-size : 20px;
+  padding: 5%;
+
   
