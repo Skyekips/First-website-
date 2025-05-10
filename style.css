@@ -17,6 +17,7 @@ html, body {
 .header {
     display: flex;
     background-color: gray;
+    height: 35%;
 }
 
 a {
@@ -39,6 +40,7 @@ ul {
     padding-top: 0px;
     padding-right: 10%;
      padding-left: 10%;
+  margin: 10px;
 }
 
 .header-links {
@@ -76,7 +78,7 @@ button {
     cursor: pointer;
     padding: 10px;
     transform: 0.1s ease-in-out;
-
+    margin: 10px;
 }
 
 button:active {
@@ -97,6 +99,7 @@ button:active {
   padding: 20px;
   background-color: black;
   color: #ffffff;
+  
 }
 
 .examples {
@@ -104,7 +107,7 @@ button:active {
   flex-direction: row;
   color: #ffffff;
   justify-content: space-between;
-  gap: 20%;
+  gap: 10%;
 }
 
 .Example1, .Example2, .Example3 {
@@ -137,4 +140,35 @@ button:active {
   font-size : 20px;
   padding: 5%;
 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+  background-color: rgb(2, 2, 2);
+  color: #ffffff;
+  
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  gap: 20%; background-color: gray
+
+}
+
+.bottom-content {
+  padding: 10px;
+  align-self: center;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin:10px;
+  text-align: center;
+}
   
